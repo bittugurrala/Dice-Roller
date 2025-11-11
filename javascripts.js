@@ -20,7 +20,7 @@ window.addEventListener("load", function () {
 });
 
 roll.addEventListener("click", function () {
-  // 🎬 Fade out paragraph
+  // Fade out paragraph
   para.classList.remove("show");
 
   // ⏳ After fade-out (0.6s), show dice animation
@@ -52,9 +52,10 @@ roll.addEventListener("click", function () {
         const finalDice = document.getElementById("finalDice");
         setTimeout(() => {
             finalDice.classList.add("show");
-        }, 100); // tiny delay for transition to trigger
+        }, 100); 
         }, 2500);
 
     }, 100);
+    display.textContent = "";
   }, 100);
 
