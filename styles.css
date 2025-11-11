@@ -1,0 +1,16 @@
+body{
+    background-color: #1E1B3A;
+    /* display: flex; */
+    /* flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+}
+.container{
+    min-height: 100vh;
+
+}
+.dice-container{
+    background : linear-gradient(135deg, #3A0CA3, #867BE2, #7209B7);
+    width: 650px;
+    border-radius: 20px;
+}
