@@ -48,11 +48,11 @@ roll.addEventListener("click", function () {
       diceContainer.innerHTML = `
         <img src="${faces[random]}" width="150" class="fade show size" alt="dice-${random}">`;
         display.textContent = `Dice value is ${random}`;
-        // ✨ Smooth fade-in for final dice
+        // Smooth fade-in for final dice
         const finalDice = document.getElementById("finalDice");
         setTimeout(() => {
             finalDice.classList.add("show");
-        }, 100); 
+        }, 50); 
         }, 2500);
 
     }, 100);
