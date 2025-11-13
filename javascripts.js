@@ -51,7 +51,8 @@ roll.addEventListener("click", function () {
 
         display.textContent = `Dice value is ${random}`;
         // Smooth fade-in for final dice
-        const finalDice = document.getElementById("finalDice").classList.add("show");;
+        const finalDice = document.getElementById("finalDice");
+        finalDice.classList.add("show")
         setTimeout(() => {
             finalDice.classList.add("show");
         }, 50); 
