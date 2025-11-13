@@ -9,7 +9,7 @@ let faces = {
     3 : "Dice_images/Three_face.png",
     4 : "Dice_images/Four_face.png",
     5 : "Dice_images/Five_face.png",
-    6 : "Dice_images/Six_face.png"
+    6 : "Dice_images/Sixx_face.png"
 };
 
 //Show intro text smoothly on page load

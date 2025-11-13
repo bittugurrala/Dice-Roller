@@ -33,8 +33,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 18px;
+    padding-right: 18px;
 }
 
 .dice img,
